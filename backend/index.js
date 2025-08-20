@@ -76,7 +76,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://latest-job-finder.onrender.com",
   credentials: true,
 };
 app.use(cors(corsOptions));
